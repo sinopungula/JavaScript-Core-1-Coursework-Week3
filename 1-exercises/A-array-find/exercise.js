@@ -17,9 +17,15 @@ var names = [
   "Ahmed",
 ];
 
-var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
+//var longNameThatStartsWithA = names.find(name => && names.length > 7); // returns "Alexander", with the startsWith()/includes() & indexOf() methods, it returns true.
 
-console.log(longNameThatStartsWithA);
+var longNameThatStartsWithA = names.find((name ) => (name.startsWith('A') && name.length > 7));
+    
+  
+  console.log(longNameThatStartsWithA);
+
+
+//console.log(longNameThatStartsWithA);
 
 /* EXPECTED OUTPUT */
 // "Alexandra"
