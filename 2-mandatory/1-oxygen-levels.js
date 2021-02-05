@@ -14,7 +14,6 @@
 function safeLevels(array) {
   let safeRange = array.find(el => el.replace('%', '') > 19.5 && el.replace('%', '') < 23.5);
   return safeRange; 
-
   
 }
 

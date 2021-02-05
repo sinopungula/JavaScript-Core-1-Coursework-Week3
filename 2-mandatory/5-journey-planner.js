@@ -130,7 +130,8 @@ function getLocationName(location) {
   Advanced challange: try to use arrow function when invoking an array method.
 */
 function journeyPlanner(locations, transportMode) {
-  if (transportMode ===)
+    let whereToGo = locations.filter(el => el.includes(transportMode)).map(el => el[0]);
+    return whereToGo;
   // Implement the function body
 }
 

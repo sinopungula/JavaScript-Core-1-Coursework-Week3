@@ -23,6 +23,7 @@ PasswordValidationResult=  [false, false, false, false, true]
 */
 
 function validatePasswords(passwords) {
+  let safePAss = passwords.find(el => el.includes(string.length) > 5 && el.includes('') < 23.5);
 
 }
 
