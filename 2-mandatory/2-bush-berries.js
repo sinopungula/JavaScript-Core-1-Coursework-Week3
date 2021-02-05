@@ -21,7 +21,16 @@
   Let's first look at an example that will teach you how to use these methods.
 */
 
-function bushChecker() {}
+function bushChecker(array) {
+  let safeBush = array.every((el => el === "pink")); 
+  if (safeBush) {
+    return 'Bush is safe to eat from';
+  }
+  else
+    return 'Toxic! Leave bush alone!';
+
+
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

@@ -15,7 +15,11 @@
   
 */
 
-function colonisers() {}
+
+function colonisers(array) {
+  let checkFam = array.filter(el => el.includes('family') && el.startsWith('A'));
+  return checkFam; 
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
